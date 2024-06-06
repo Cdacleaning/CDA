@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CDA CLEANING COMPANY LLC</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+            color: #333;
+        }
+        header {
+            background-color: #4CAF50;
+            color: white;
+            padding: 1rem 0;
+            text-align: center;
+        }
+        nav {
+            display: flex;
+            justify-content: center;
+            background-color: #333;
+        }
+        nav a {
+            color: white;
+            padding: 1rem;
+            text-decoration: none;
+        }
+        nav a:hover {
+            background-color: #575757;
+        }
+        .container {
+            max-width: 1200px;
+            margin: 2rem auto;
+            padding: 1rem;
+            background-color: white;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+        h1, h2 {
+            color: #4CAF50;
+        }
+        footer {
+            text-align: center;
+            padding: 1rem 0;
+            background-color: #333;
+            color: white;
+            position: fixed;
+            width: 100%;
+            bottom: 0;
+        }
+        .contact-info {
+            list-style: none;
+            padding: 0;
+        }
+        .contact-info li {
+            margin: 0.5rem 0;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>CDA CLEANING COMPANY LLC</h1>
+        <p>Su socio de limpieza de confianza</p>
+    </header>
+    <nav>
+        <a href="#about">Sobre Nosotros</a>
+        <a href="#services">Servicios</a>
+        <a href="#contact">Contacto</a>
+    </nav>
+    <div class="container" id="about">
+        <h2>Sobre Nosotros</h2>
+        <p>Bienvenido a CDA CLEANING COMPANY LLC. Nos dedicamos a ofrecer servicios de limpieza de alta calidad para propiedades residenciales y comerciales. Nuestro equipo de profesionales está comprometido a garantizar que su espacio esté limpio, higiénico y acogedor.</p>
+    </div>
+    <div class="container" id="services">
+        <h2>Nuestros Servicios</h2>
+        <ul>
+            <li>Limpieza Residencial</li>
+            <li>Limpieza Comercial</li>
+            <li>Limpieza de Ventanas</li>
+            <li>Limpieza de Alfombras</li>
+            <li>Limpieza Profunda</li>
+        </ul>
+    </div>
+    <div class="container" id="contact">
+        <h2>Contacto</h2>
+        <ul class="contact-info">
+            <li>Teléfono: 480-203-4070</li>
+            <li>Correo Electrónico: info@cdacleaningcompany.com</li>
+            <li>Dirección WASHINGTON KENT 98030</li>
+        </ul>
+    </div>
+    <footer>
+        <p>&copy; 2024 CDA CLEANING COMPANY LLC. Todos los derechos reservados.</p>
+    </footer>
+</body>
+</html>
